@@ -1,0 +1,28 @@
+I create an exampe, but remeber to set the real environment after! 
+# conda create -n -env_name- -list of packages-
+For real I created:
+# conda create -n frst_tst_del numpy
+
+With a specific python 
+#  conda create -n py3 python=3
+# => or py2 python=2
+# => or to a specific version:  conda create -n py python=3.3
+
+Once you have an environment created, use 'conda activate my_env' to enter it.
+You can check installed packages, with 'conda list'.
+To leave the environment, type source deactivate.
+
+A really useful feature is sharing environments so others can install all the
+packages used in your code, with the correct versions. 
+You can save the packages to a YAML file with
+conda env export > environment.yaml
+This file can now be shared and others will be able to create the same 
+environment you used for the project.
+
+IMPORTANT:
+To create an environment from an environment file use 
+conda env create -f environment.yaml
+
+Use 'conda env list' to list out all the environments you've created. 
+'conda env remove -n env_name' will remove the specified environment. 
+

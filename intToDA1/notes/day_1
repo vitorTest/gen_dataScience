@@ -1,0 +1,22 @@
+First install and setup Anaconda. 
+Finishes the Anaconda/Jupitar mini-course, to for then, return the original course.
+
+The original course requires python 2.7, but I'll install conda 3 (python 3),
+so, if something goes wrong, try to remember that and adapt the code.
+
+Anaconda3 will now be installed into this location:
+/home/username/anaconda3
+
+I'll install the required packages, for the course of DA 
+(numpy, pandas, matplotlib, and seaborn)
+
+To uninstall, use conda remove package_name.
+To update, conda update package_name, or update all, conda update --all.
+To search for a package, conda search *search_term*.
+
+I stopped in managing environments, because I have to see set later 
+the proveided environment.
+
+# Correction - every time that I start a terminal, conda (base) is initialized.
+so I try:
+conda config --set auto_activate_base false

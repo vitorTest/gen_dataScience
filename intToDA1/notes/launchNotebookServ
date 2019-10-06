@@ -1,0 +1,11 @@
+To install:
+# conda install jupyter notebook
+
+To launch:
+# jupyter notebook
+This will start the server in the directory you ran the command in.
+
+Consider to install Notebook Conda to help manage your environments.
+# conda install nb_conda
+Then you'll have access to the "Conda" tab. Also you'll be able to access
+any conda environment.
