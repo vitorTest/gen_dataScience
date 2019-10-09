@@ -1,0 +1,9 @@
+There's also a shell:
+# ipython
+
+Command History Shortcuts:
+
+Keystroke                       Action
+Ctrl-p (or the up arrow key)    Access previous command in history
+Ctrl-n (or the down arrow key)  Access next command in history
+Ctrl-r	                        Reverse-search through command history
